@@ -1,0 +1,194 @@
+
+*{
+    margin:0%;
+    padding:0%;
+    font-family: "Uber Move Text";
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black; 
+
+}
+#nav  .right{
+    display: flex;
+}
+#nav  .left{
+    display: flex;
+}
+
+.left img{
+    margin-top: -11px;
+}
+
+.left p{
+    margin-inline: 22px;
+    margin-top: 21px;
+}
+.right p{
+    margin-inline : 22px;
+    margin-top: 21px;
+}
+
+.right i{
+    margin-top: 22px;
+    font-size: 22px;
+}
+.right button{
+    width: 100px;
+    height: 36px;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 26px;
+    margin-top: 12px;
+}
+.right button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid white;
+}
+.card
+{
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1586,h_805/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+
+    padding-top: 100px;
+}
+ .main{
+    width:400px;
+    height: 430px;
+    margin-left: 180px;
+    background-color: #fff;
+ }
+ .main .icon 
+ {
+     display: flex;
+     justify-content: center;
+     border : 1 px solid  white;
+ }
+ .main .icon .car
+ {
+    margin-inline: 74px;
+    margin-top: 11px;
+    border-bottom: 3px solid black;
+ }
+ .icon .car  i{
+    font-size: 130%;
+ }
+ .card h1{
+    padding: 33px;
+}
+.card input{
+    width: 300px;
+    height: 30 px;
+    background-color: rgb(229, 226, 226)  ;
+    padding: 8px;
+    margin-top: 9px;
+    border: none;
+    margin-left: 33px;
+}
+
+.card .btn{
+    margin-left: 33px;
+    margin-top: 44px;
+
+}
+
+.card .btn .fr{
+    width: 150 px;
+    height: 30px;
+    background-color: black ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+
+.card .btn button{
+    width: 150 px;
+    height: 30px;
+    background-color: gray ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+
+.head h1{
+    padding :33 px;
+    font-size: 44 px;
+    padding-bottom :60px ;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.ride .uber{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.uber .auto
+{
+    display: flex;
+}
+.uber .auto img{
+    margin-inline: 50px;
+    width: 125px;
+    height: 125px;
+}
+.safe
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+    margin-bottom: 50px;
+}
+.img p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+.app{
+    background-color: rgb(172, 170, 170);
+}
+
+.app h1
+{
+    padding: 33px;
+    font-size: 44px;
+}
+.app .downld{
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     padding : 35px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center ;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    padding: 44px;
+    margin-top: 22px;
+}
+.list p{
+    padding: 10px;
+}
+
+ 
+
+ 
+
